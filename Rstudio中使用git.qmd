@@ -1,0 +1,15 @@
+---
+title: "Rstudio中使用git"
+format: html
+editor: visual
+---
+
+```{r}
+system("G:/Program/git/Git/cmd/git.exe config --global user.email '1098170939@qq.com'")
+system("G:/Program/git/Git/cmd/git.exe config --global user.name 'Yaoswrold'")
+```
+
+```{cmd}
+>>> G:/Program/git/Git/cmd/git.exe commit -F C:/Users/10981/AppData/Local/Temp/Rtmpone126/git-commit-message-3fbc2b095faa.txt
+Aborting commit due to empty commit message.
+```
